@@ -58,7 +58,7 @@ describe('First tests', () => {
     cy.wait(4000)
     mainP.email().type('ntierf@gmail.com')           ///typing email address
     mainP.loginbtn().click()                       ///clicking log in
-    mainP.confirmemail().should('exist') 
+    mainP.confirmemail().should('exist')            ////verifying that the check email pop up appears
   })
 
  
